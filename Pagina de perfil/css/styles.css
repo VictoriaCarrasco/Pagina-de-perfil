@@ -1,0 +1,275 @@
+body{
+    font-family: 'Balsamiq Sans', cursive; 
+    display: flex;
+}
+
+
+#nav {  
+    background-color: black;
+    color: rgb(0, 0, 0); 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+.nav-title{
+    color: rgb(255, 255, 255);
+    margin-right: 90px;
+}
+
+.nav-links{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    list-style: none;  
+    margin-left: 90px;
+}
+
+li{
+    margin: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+}
+
+.active{
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    background-color: rgb(101, 203, 221);
+    margin-left: 320px;
+    color: rgb(255, 255, 255);
+    border: 3px solid black;
+    box-shadow: 2px 3px black;
+}
+
+.container{
+    height: 900px;
+    width: 2000px;
+
+}
+
+.conteiner2{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.col{
+    margin-top: 30px;
+    margin-left: 140px;
+    flex: 2; 
+} 
+
+
+.tarjetaUsuario{
+    display: flex;
+    flex-direction: column; 
+    width: 600px;
+    border: 3px solid rgb(191, 188, 188);
+}
+
+header {
+    background-color: rgb(33, 155, 155);
+    position: relative; 
+    height: 80px;
+}
+
+.imagenUsuario {
+    position: absolute;
+    width: 90px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: 4px solid rgb(185, 184, 184);
+    border-radius: 50px;
+}
+
+main{
+    padding: 30px;
+}
+
+.title{
+    margin-top: 35px;
+}
+
+.ubicacion, .edicion{
+    display:flex;
+    flex-direction: row;
+}
+
+.icono{
+    width:15px;
+}
+
+.ciudad, .editarPerfil{
+    margin-left: 10px;
+}
+
+.ubicacion{
+    margin-bottom: 10px;
+}
+
+.edicion{
+    margin-top: 10px;
+}
+
+#profile1{
+    color: rgb(15, 75, 180);
+}
+
+.tarjetaEducation{
+    width: 600px;
+    height: 250px;
+    margin-top: 20px; 
+    border: 3px solid rgb(182, 176, 176);
+}
+
+#header2{
+    background-color: rgb(37, 37, 37);
+    height: 50px;
+    color: rgb(211, 204, 204); 
+    display:flex;
+    align-items: center;
+}
+
+.education{
+    margin-left: 20px;
+}
+
+.textEducation{
+    margin-left: 30px;
+}
+
+.gris{
+    color:rgb(136, 133, 133)
+}
+
+.col2{
+    margin-top: 30px;
+    margin-left: 20px;
+    flex: 2; 
+}
+
+#header3{
+    background-color: rgb(37, 37, 37);
+    height: 55px;
+    color: rgb(211, 204, 204); 
+    display:flex;
+    align-items: center;
+}
+
+.conectionRequest{
+    margin-left: 20px;
+}
+
+.tarjetaConection{
+    width: 250px;
+    height: 200px;
+    border: 4px solid rgb(215, 215, 215);
+}
+
+.conectionNum{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(106, 106, 106);;
+    border-radius: 50px;
+    margin-left: 20px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fotosIcono{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px solid black; 
+    border-radius: 50px;
+}
+
+.row2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.containerCon{
+    display:flex;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.containerCon2{
+    display:flex;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+
+#chequear{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin: 2px;
+
+}
+
+h3{
+    margin:0;
+}
+
+.nombres{
+    margin-left: 8px;
+}
+
+.tarjetaCon2{
+    width: 250px;
+    height: 360px;
+    margin-top: 20px;;
+    border: 4px solid rgb(215, 215, 215);
+}
+
+.view{
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+    border-top: 3px solid rgb(173, 173, 173);
+    display:flex; 
+    align-items: center;
+}
+
+.footer{
+    color:rgb(13, 54, 126);
+    margin-left: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
+.conectionNum50{
+    width: 60px;
+    height: 20px;
+    background-color: rgb(106, 106, 106);;
+    border-radius: 50px;
+    margin-left: 20px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
